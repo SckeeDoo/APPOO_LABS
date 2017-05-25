@@ -15,6 +15,48 @@ public class SampleEntity {
     private int cw_adults;
     private int fc_kids;
     private int kg_kids;
+    private int ga_adults;
+    private int _2010_census_population;
+
+    public void setCw_adults(int cw_adults) {
+        this.cw_adults = cw_adults;
+    }
+
+    public void setFc_kids(int fc_kids) {
+        this.fc_kids = fc_kids;
+    }
+
+    public void setKg_kids(int kg_kids) {
+        this.kg_kids = kg_kids;
+    }
+
+    public void setGa_adults(int ga_adults) {
+        this.ga_adults = ga_adults;
+    }
+
+    public void set_2010_census_population(int fc_adults) {
+        this._2010_census_population = fc_adults;
+    }
+
+    public void setCf_adults(int cf_adults) {
+        this.cf_adults = cf_adults;
+    }
+
+    public int getFc_kids() {
+        return fc_kids;
+    }
+
+    public int getKg_kids() {
+        return kg_kids;
+    }
+
+    public int getGa_adults() {
+        return ga_adults;
+    }
+
+    public int get_2010_census_population() {
+        return _2010_census_population;
+    }
 
     public int getCw_adults() {
         return cw_adults;
